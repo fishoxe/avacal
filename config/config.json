@@ -1,1 +1,52 @@
-{}
+{
+  "theme": {
+    "PHPNamespace": "Avacal\\Avacal",
+    "slug": "kingdomofavacal",
+    "name": "Kingdom of Avacal",
+    "theme_uri": "https://github.com/fishoxe/avacal",
+    "author": "Nicole Roth",
+    "author_uri": "https://lamiaceae.space/",
+    "description": "Official Site for the Kingdom of Avacal",
+    "version": "1.0.0"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "localhost",
+      "bypassPort": "8181",
+      "https": false
+    },
+    "styles": {
+      "stage": 3,
+      "autoprefixer": {
+        "grid": false
+      },
+      "importFrom": [
+        "_custom-media.css"
+      ],
+      "features": {
+        "custom-media-queries": true,
+        "custom-properties": true,
+        "nesting-rules": true
+      }
+    },
+    "debug": {
+      "styles": false,
+      "scripts": false,
+      "phpcs": true
+    }
+  },
+  "export": {
+    "compress": true,
+    "generatePotFile": true,
+    "filesToCopy": [
+      "LICENSE",
+      "readme.txt",
+      "screenshot.png",
+      "assets/css/vendor/**/*.css",
+      "assets/js/vendor/**/*.js",
+      "assets/svg/*.svg",
+      "inc/EZ_Customizer/themeCustomizeSettings.json"
+    ]
+  }
+}
