@@ -34,13 +34,18 @@
 
 .entry-meta,
 .entry-footer {
-	font-family: var(--highlight-font-family);
+	font-family: var(--global-font-family);
 	font-stretch: condensed;
 	font-size: 80%;
 }
 
 .entry-meta {
 	margin: 1em 0;
+}
+
+.entry-taxonomies {
+	margin: 0;
+	font-style: italic;
 }
 
 /* Hides the update date and time. */
@@ -76,7 +81,6 @@
 .page-header,
 .entry-header,
 .entry-footer,
-.site-info,
 .post-navigation,
 .page-navigation,
 .comments-area {
@@ -90,7 +94,6 @@
 .page-header,
 .entry-header,
 .entry-footer,
-.site-info,
 .post-navigation,
 .page-navigation,
 .comments-area {

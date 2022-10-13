@@ -9,7 +9,14 @@
 /* Make sure select elements fit in widgets. */
 .widget {
 	margin-top: 0;
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
+	border: 1px solid rgb(240, 240, 240);
+	box-shadow: 0 5px 10px 0 var(--color-theme-grey);
+	background-color: rgb(253, 253, 253);
+	padding: 1em;
+	border-radius: 15px;
+	width: 100%;
+	min-width: 300px;
 }
 
 .widget-area .widget {

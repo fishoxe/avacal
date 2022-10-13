@@ -5,13 +5,9 @@
 --------------------------------------------------------------*/
 /* stylelint-disable */
 a {
-	color: var(--color-link);
+	color: var(--color-theme-yellow);
 }
 /* stylelint-enable */
-
-a:visited {
-	color: var(--color-link-visited);
-}
 
 a:hover,
 a:focus,

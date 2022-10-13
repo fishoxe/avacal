@@ -6,17 +6,18 @@
  **/
 
 :root {
-	--content-width: 45rem;
+	--content-width: 65rem;
 	--dropdown-symbol-width: 0.7em;
 
 	/* Typography */
-	--global-font-family: "Crimson Text", serif;
-	--highlight-font-family: "Roboto Condensed", "Helvetica Neue", "Arial Narrow", sans-serif;
+	--global-font-family: "Fira Sans Condensed", serif;
+	--highlight-font-family: "Pirata One", "Helvetica Neue", "Arial Narrow", sans-serif;
 	--global-font-size: 20;
 	--global-font-line-height: 1.4;
 
 	/* Custom editor font sizes */
 	--font-size-small: calc(16 / var(--global-font-size) * 1rem);
+	--font-size-medium-small: 1rem;
 	--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);
 	--font-size-large: calc(36 / var(--global-font-size) * 1rem);
 	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
@@ -32,15 +33,16 @@
 	--color-quote-citation: #6c7781;
 
 	/* Custom editor colors */
-	--color-theme-primary: #e36d60;
-	--color-theme-secondary: #41848f;
-	--color-theme-red: #c0392b;
-	--color-theme-green: #27ae60;
-	--color-theme-blue: #2980b9;
-	--color-theme-yellow: #f1c40f;
-	--color-theme-black: #1c2833;
-	--color-theme-grey: #95a5a6;
-	--color-theme-white: #ecf0f1;
-	--color-custom-daylight: #97c0b7;
-	--color-custom-sun: #eee9d1;
+	--color-theme-primary: #9a150f;
+	--color-theme-secondary: #6a4e46;
+	--color-theme-red: #e71d36;
+	--color-theme-green: #a9e5bb;
+	--color-theme-blue: #086375;
+	--color-theme-yellow: #ffc02d;
+	--color-theme-black: #0d090a;
+	--color-theme-grey: #f2edeb;
+	--color-theme-white: #fff;
+	--color-custom-daylight: #fffecb;
+	--color-custom-sun: #fea82f;
+	--color-custom-bg: #fffdf7;
 }

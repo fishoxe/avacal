@@ -360,8 +360,15 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		$google_fonts = array(
-			'Roboto Condensed' => array( '400', '400i', '700', '700i' ),
-			'Crimson Text'     => array( '400', '400i', '600', '600i' ),
+			'Roboto Condensed'    => array( '400', '400i', '700', '700i' ),
+			'Crimson Text'        => array( '400', '400i', '600', '600i' ),
+			'Fira Sans Condensed' => array( '200', '300', '400', '500' ),
+			'Germania One'        => array( '400' ),
+			'Gilda Display'       => array( '400' ),
+			'Glass Antiqua'       => array( '400' ),
+			'Pirata One'          => array( '400' ),
+			'Uncial Antiqua'      => array( '400' ),
+			'UnifrakturMaguntia'  => array( '400' ),
 		);
 
 		/**

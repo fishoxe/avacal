@@ -18,6 +18,8 @@ namespace WP_Rig\WP_Rig;
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 	<?php
 	if ( ! wp_rig()->is_amp() ) {
@@ -36,9 +38,9 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
 
 	<header id="masthead" class="site-header">
+		<?php get_template_part( 'template-parts/header/navigation' ); ?>
+
 		<?php get_template_part( 'template-parts/header/custom_header' ); ?>
 
 		<?php get_template_part( 'template-parts/header/branding' ); ?>
-
-		<?php get_template_part( 'template-parts/header/navigation' ); ?>
 	</header><!-- #masthead -->
