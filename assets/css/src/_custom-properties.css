@@ -39,10 +39,11 @@
 	--color-theme-green: #a9e5bb;
 	--color-theme-blue: #086375;
 	--color-theme-yellow: #ffc02d;
-	--color-theme-black: #0d090a;
+	--color-theme-black: #161113;
 	--color-theme-grey: #f2edeb;
 	--color-theme-white: #fff;
 	--color-custom-daylight: #fffecb;
 	--color-custom-sun: #fea82f;
 	--color-custom-bg: #fffdf7;
+	--color-custom-shadow: rgb(175, 175, 175);
 }

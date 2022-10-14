@@ -11,10 +11,10 @@ namespace WP_Rig\WP_Rig;
 
 <div class="site-info">
 	<div class="sm-icons">
-		<i class="fa-brands fa-facebook"></i>
-		<i class="fa-brands fa-twitter"></i>
-		<i class="fa-brands fa-youtube"></i>
-		<i class="fa-brands fa-instagram"></i>
+		<a href="https://www.facebook.com/KingdomofAvacalSCA" target="_blank" alt="Official Kingdom of Avacal Facebook"><i class="fa-brands fa-facebook"></i></a>
+		<a href="https://twitter.com/kingdomofavacal" target="_blank" alt="Official Kingdom of Avacal Twitter"><i class="fa-brands fa-twitter"></i></a>
+		<a href="https://www.instagram.com/kingdomofavacal/" target="_blank" alt="Official Kingdom of Avacal Instagram"><i class="fa-brands fa-instagram"></i></a>
+		<a href="https://www.youtube.com/channel/UCZU7WN6qooSjet_d-6RqFpw/" target="_blank" alt="Official Kingdom of Avacal Youtube"><i class="fa-brands fa-youtube"></i></a>
 	</div>
 	<p>
 	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wp-rig' ) ); ?>">
