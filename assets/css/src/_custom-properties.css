@@ -28,7 +28,7 @@
 	--border-color-light: #ccc;
 	--color-link: #0073aa;
 	--color-link-visited: #333;
-	--color-link-active: #00a0d2;
+	--color-link-active: #18bff2;
 	--color-quote-border: #000;
 	--color-quote-citation: #6c7781;
 
@@ -45,5 +45,5 @@
 	--color-custom-daylight: #fffecb;
 	--color-custom-sun: #fea82f;
 	--color-custom-bg: #fffdf7;
-	--color-custom-shadow: rgb(175, 175, 175);
+	--color-custom-shadow: #afafaf;
 }
