@@ -27,11 +27,9 @@ wp_rig()->print_styles( 'wp-rig-front-page' );
 			</div>
 
 			<div class="banner-welcome">
-				<img src='<?php bloginfo( 'template_directory' ); ?>/assets/images/FrontPageWelcome.png' alt="Welcome" class="banner-welcome-img" />
-			</div>
-
-			<div class="banner-text-only">
-				<img src='<?php bloginfo( 'template_directory' ); ?>/assets/images/FrontPageTextOnly.png' alt="Welcome" class="banner-welcome-text" />
+				<h1><span class="welcome">Welcome</span> to the
+				<span class="kingdom">Kingdom of</span>
+				<span class="avacal">Avacal</span></h1>
 			</div>
 		</div>
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
