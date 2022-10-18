@@ -35,7 +35,6 @@
 .entry-meta,
 .entry-footer {
 	font-family: var(--global-font-family);
-	font-stretch: condensed;
 	font-size: 80%;
 }
 

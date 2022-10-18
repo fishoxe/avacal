@@ -6,6 +6,12 @@
 /* stylelint-disable */
 a {
 	color: var(--color-theme-yellow);
+	text-shadow: 1px 1px 0 var(--color-theme-black);
+	text-decoration: none;
+}
+
+.entry-title a {
+	letter-spacing: 1px;
 }
 /* stylelint-enable */
 
@@ -13,6 +19,7 @@ a:hover,
 a:focus,
 a:active {
 	color: var(--color-link-active);
+	text-decoration: underline;
 }
 
 a:focus {
