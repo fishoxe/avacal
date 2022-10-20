@@ -6,7 +6,6 @@
 /* stylelint-disable */
 a {
 	color: var(--color-theme-yellow);
-	text-shadow: 1px 1px 0 var(--color-theme-black);
 	text-decoration: none;
 }
 

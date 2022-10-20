@@ -94,7 +94,7 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Black', 'wp-rig' ),
 					'slug'  => 'theme-black',
-					'color' => '#0d090a',
+					'color' => '#141414',
 				),
 				array(
 					'name'  => __( 'Grey', 'wp-rig' ),
@@ -115,6 +115,11 @@ class Component implements Component_Interface {
 					'name'  => __( 'Dusty sun', 'wp-rig' ),
 					'slug'  => 'custom-sun',
 					'color' => '#fea82f',
+				),
+				array(
+					'name'  => __( 'Custom Background', 'wp-rig' ),
+					'slug'  => 'custom-bg',
+					'color' => '#fffdf7',
 				),
 			)
 		);
