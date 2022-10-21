@@ -163,7 +163,7 @@
 .banner-bg img {
 	object-fit: cover;
 	margin-top: -1.8em;
-	filter: brightness(120%) saturate(140%) opacity(0.8);
+	filter: brightness(120%) saturate(140%);
 	border-radius: 0;
 
 	@media screen and (max-width: 1040px) {
@@ -267,14 +267,6 @@ p {
 	}
 }
 
-.entry-content strong {
-	font-size: xx-large;
-
-	@media screen and (max-width: 600px) {
-		font-size: x-large;
-	}
-}
-
 .entry-content h2 {
 	text-shadow: 1px 1px 2px var(--color-theme-black);
 }
@@ -345,6 +337,10 @@ p {
 	/* phpcs:enable */
 }
 
+.wp-block-media-text__media {
+	border-radius: 0 15px 0 0;
+}
+
 .wp-block-cover {
 	box-shadow: inset 0 4px 15px var(--color-theme-black);
 }
@@ -355,20 +351,22 @@ p {
 
 .wp-block-buttons .wp-block-button > * {
 	border-radius: 10px;
-	border: 1px solid var(--color-custom-gold);
-	box-shadow: 1px 1px 5px var(--color-theme-primary);
-	color: var(--color-theme-white);
+	border: none;
 	width: 60%;
 }
 
 .wp-block-button:hover > * {
-	background-color: var(--color-theme-white);
-	color: var(--color-theme-red);
 	border-radius: 10px;
+}
+
+.wp-block-button__link {
+	background: linear-gradient(120deg, #f00, var(--color-custom-sun));
 }
 
 .wp-block-button__link:hover {
 	text-decoration: none;
+	background: linear-gradient(120deg, var(--color-custom-gold), var(--color-custom-daylight));
+	color: var(--color-theme-blue);
 }
 
 
@@ -382,6 +380,10 @@ p {
 
 .has-theme-primary-background-color {
 	background-color: var(--color-theme-primary);
+}
+
+.wp-block-buttons .wp-block-button .has-theme-primary-background-color {
+	box-shadow: 1px 1px 5px var(--color-theme-yellow);
 }
 
 .has-theme-secondary-color {
@@ -398,7 +400,11 @@ p {
 
 .has-theme-red-background-color {
 	background-color: var(--color-theme-red);
-	border-radius: 20px 0 0 0;
+	border-radius: 0 15px 0 0;
+}
+
+.wp-block-buttons .wp-block-button .has-theme-red-background-color {
+	box-shadow: 1px 1px 5px var(--color-theme-yellow);
 }
 
 .has-theme-green-color {
@@ -417,6 +423,10 @@ p {
 	background-color: var(--color-theme-blue);
 }
 
+.wp-block-buttons .wp-block-button .has-theme-blue-background-color {
+	box-shadow: 1px 1px 5px var(--color-custom-daylight);
+}
+
 .has-theme-yellow-color {
 	color: var(--color-theme-yellow);
 }
@@ -431,7 +441,7 @@ p {
 
 .has-theme-black-background-color {
 	background-color: var(--color-theme-black);
-	border-radius: 0 20px 0 20px;
+	border-radius: 0 0 0 15px;
 }
 
 .has-theme-grey-color {
@@ -464,6 +474,14 @@ p {
 
 .has-custom-sun-background-color {
 	background-color: var(--color-custom-sun);
+}
+
+.has-custom-bg-color {
+	color: var(--color-custom-bg);
+}
+
+.has-custom-bg-background-color {
+	background-color: var(--color-custom-bg);
 }
 
 /*--------------------------------------------------------------

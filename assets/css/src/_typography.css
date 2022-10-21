@@ -15,6 +15,11 @@ textarea {
 	font-size: var(--font-size-regular);
 	line-height: var(--global-font-line-height);
 }
+
+.page-template-default .site .site-main article.entry header.entry-header h1.entry-title.entry-title-singular {
+	display: none;
+}
+
 /* stylelint-enable */
 
 h1,
@@ -32,6 +37,18 @@ h6 {
 .page-title {
 	font-size: 2.5em;
 	line-height: 1;
+}
+
+.entry-title.entry-title-singular {
+	padding-left: 1rem;
+}
+
+.entry-title a {
+	padding-left: 1rem;
+
+	@media screen and (max-width: 600px) {
+		padding-left: 0;
+	}
 }
 
 dfn,

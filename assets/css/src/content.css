@@ -54,6 +54,7 @@
 
 .post-thumbnail img {
 	margin: 0 auto;
+	object-fit: cover;
 }
 
 .page-content,
@@ -65,6 +66,11 @@
 .entry-content > ul,
 .entry-content > ol {
 	padding-left: 3.5em;
+
+	@media screen and (max-width: 600px) {
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+	}
 }
 
 .page-content > *,
@@ -79,10 +85,6 @@
 	@media screen and (max-width: 600px) {
 		padding: 0;
 	}
-}
-
-.entry-header {
-	display: none;
 }
 
 .page-header,
@@ -104,8 +106,8 @@
 .comments-area {
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 1.5rem;
-	padding-left: 1.5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 	max-width: var(--content-width);
 
 	@media screen and (max-width: 600px) {
@@ -117,8 +119,9 @@
 
 	.entry-content > ul,
 	.entry-content > ol {
-		padding-left: 2.5em;
-		padding-right: 2.5em;
+		padding: 1rem 1.7em;
+		border-radius: 15px;
+		border: 1px solid rgb(246, 246, 246);
 	}
 }
 
@@ -138,8 +141,12 @@
 
 .entry-footer {
 	clear: both;
-	padding: 1.5em 1.5rem;
+	padding: 1.5rem 1rem;
 	border-bottom: 3px double var(--color-custom-gold);
+
+	@media screen and (max-width: 600px) {
+		padding: 1rem 0;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -310,6 +317,22 @@
 
 .has-custom-bg-background-color {
 	background-color: var(--color-custom-bg);
+}
+
+.wp-block-columns .has-custom-bg-background-color {
+	border-radius: 5px;
+	box-shadow: 0 5px 10px 0 var(--color-theme-grey);
+	border: 1px solid var(--color-theme-grey);
+	padding: 1em;
+
+	/* phpcs:disable */
+
+	/* stylelint-disable */
+	background-color: #fcfbf3;
+	background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23ffffff' fill-opacity='0.65' fill-rule='evenodd'/%3E%3C/svg%3E");
+	/* stylelint-enable */
+
+	/* phpcs:enable */
 }
 
 /*--------------------------------------------------------------

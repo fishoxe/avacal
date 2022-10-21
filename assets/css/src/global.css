@@ -73,6 +73,7 @@
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
+
 .site {
 	margin: 0 auto;
 	overflow: hidden;
@@ -99,9 +100,13 @@
 	border-image-slice: 1;
 	border-width: 5px;
 	border-image-source: linear-gradient(to right, var(--color-custom-gold), var(--color-custom-daylight));
+	background-color: var(--color-theme-white);
+	max-width: var(--content-width);
+
 
 	@media screen and (max-width: 600px) {
 		border-width: 25px;
+		padding: 0 0.5em;
 	}
 }
 
@@ -110,12 +115,21 @@
 	height: auto;
 }
 
+.site-main img {
+	border-radius: 10px;
+}
+
+.primary-sidebar {
+	background-color: var(--color-theme-white);
+}
+
 @media (--sidebar-query) {
 
 	.has-sidebar .site {
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) minmax(37.5em, var(--content-width)) minmax(0, 1fr);
 		justify-items: center;
+		overflow: hidden;
 	}
 
 	.site-header {
@@ -709,6 +723,7 @@ select {
 
 .nav-links {
 	display: flex;
+	padding: 0 1em;
 }
 
 .comment-navigation .nav-previous,
