@@ -16,10 +16,6 @@ textarea {
 	line-height: var(--global-font-line-height);
 }
 
-.page-template-default .site .site-main article.entry header.entry-header h1.entry-title.entry-title-singular {
-	display: none;
-}
-
 /* stylelint-enable */
 
 h1,
@@ -40,7 +36,11 @@ h6 {
 }
 
 .entry-title.entry-title-singular {
-	padding-left: 1rem;
+	margin-bottom: 0.2em;
+
+	@media screen and (min-width: 600px) {
+		padding-left: 1rem;
+	}
 }
 
 .entry-title a {

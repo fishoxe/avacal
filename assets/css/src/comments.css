@@ -153,13 +153,16 @@
 	background: transparent;
 	border: 1px solid var(--border-color-light);
 	border-radius: 0;
+	border-radius: 5px;
 }
 
 .comment-reply-link:hover,
 .comment-reply-link:focus,
 .comment-form .form-submit input:hover,
 .comment-form .form-submit input:focus {
-	border-color: var(--border-color-dark);
+	background-color: var(--color-custom-daylight);
+	color: var(--color-theme-red);
+	text-shadow: 1px 1px 1px var(--color-theme-grey);
 	cursor: pointer;
 }
 
