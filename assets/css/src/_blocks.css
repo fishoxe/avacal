@@ -264,12 +264,9 @@ li.wp-block-latest-comments__comment {
 	background: none;
 }
 
-div.wp-block-columns a {
-	color: var(--color-theme-blue);
-}
-
 .wp-block-column h2 a {
-	color: var(--color-custom-gold);
+	color: var(--color-theme-blue);
+	text-shadow: 2px 2px 2px var(--color-link-active);
 }
 
 .wp-block-media-text__media a:hover {
@@ -281,8 +278,11 @@ div.wp-block-columns a:hover {
 }
 
 .wp-block-column h2 a:hover {
-	color: var(--color-theme-red);
+	color: var(--color-custom-daylight);
+	filter: drop-shadow(3px 3px 3px var(--color-theme-yellow));
+	text-shadow: 2px 2px 2px var(--color-custom-gold);
 	text-decoration: none;
+	transition: all 0.2s ease-out;
 }
 
 .wp-block-button__link {
@@ -331,7 +331,7 @@ div.wp-block-columns a:hover {
 	}
 
 	@media screen and (max-width: 600px) {
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 }
 
