@@ -87,6 +87,11 @@ class Component implements Component_Interface {
 					'color' => '#086375',
 				),
 				array(
+					'name'  => __( 'Blue alt', 'wp-rig' ),
+					'slug'  => 'theme-blue-alt',
+					'color' => '#67bfff',
+				),
+				array(
 					'name'  => __( 'Yellow', 'wp-rig' ),
 					'slug'  => 'theme-yellow',
 					'color' => '#ffc02d',
@@ -120,6 +125,16 @@ class Component implements Component_Interface {
 					'name'  => __( 'Custom Background', 'wp-rig' ),
 					'slug'  => 'custom-bg',
 					'color' => '#fffdf7',
+				),
+				array(
+					'name'  => __( 'Custom gold', 'wp-rig' ),
+					'slug'  => 'custom-gold',
+					'color' => '#ffc43b',
+				),
+				array(
+					'name'  => __( 'Custom shadow', 'wp-rig' ),
+					'slug'  => 'custom-shadow',
+					'color' => '#afafaf',
 				),
 			)
 		);
