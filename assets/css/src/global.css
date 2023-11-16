@@ -516,6 +516,10 @@ input.search-submit:hover {
 		z-index: 100;
 	}
 
+	.nav--toggle-sub ul ul a {
+		font-size: 17px;
+	}
+
 	.nav--toggle-sub .dropdown,
 	.nav--toggle-sub .dropdown-toggle {
 		display: block;

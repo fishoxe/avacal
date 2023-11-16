@@ -134,8 +134,6 @@
 	.entry-content > ul,
 	.entry-content > ol {
 		padding: 1rem 1.7em;
-		border-radius: 10px;
-		border: 1px solid rgb(246, 246, 246);
 	}
 }
 
@@ -479,11 +477,11 @@
 }
 
 .has-theme-blue-alt-color {
-	color: var(--color-custom-bg);
+	color: var(--color-theme-blue-alt);
 }
 
 .has-theme-blue-alt-background-color {
-	background-color: var(--color-custom-bg);
+	background-color: var(--color-theme-blue-alt);
 }
 
 .wp-block-columns .has-theme-blue-alt-background-color {
@@ -500,6 +498,14 @@
 	/* stylelint-enable */
 
 	/* phpcs:enable */
+}
+
+.has-custom-gold-color {
+	color: var(--color-theme-blue-alt);
+}
+
+.has-custom-gold-background-color {
+	background-color: var(--color-theme-blue-alt);
 }
 
 /*--------------------------------------------------------------

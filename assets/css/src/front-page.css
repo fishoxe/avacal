@@ -120,7 +120,7 @@
 	}
 
 	@media screen and (max-width: 600px) {
-		height: 30em;
+		height: 25em;
 	}
 }
 
@@ -170,10 +170,11 @@
 	}
 
 	@media screen and (max-width: 600px) {
-		height: 75vh;
+		height: 65vh;
 		opacity: 0.6;
 		padding-top: 3.5em;
 		border: none;
+		width: 100%;
 	}
 }
 
@@ -188,7 +189,7 @@
 	}
 
 	@media screen and (max-width: 600px) {
-		top: 8em;
+		top: 4.5em;
 		left: 0;
 		right: 0;
 		padding: 0 1em;
@@ -204,7 +205,8 @@
 	}
 
 	@media screen and (max-width: 600px) {
-		font-size: 2.3em;
+		font-size: 2.2em;
+		text-align: center;
 	}
 }
 
@@ -215,19 +217,19 @@
 }
 
 .kingdom {
-	font-size: 1.75em;
+	font-size: 1.6em;
 	text-shadow: 1px 1px 0 var(--color-theme-red);
 	display: block;
 }
 
 .avacal {
-	font-size: 3em;
+	font-size: 2.8em;
 	color: var(--color-theme-primary);
 	background: -webkit-linear-gradient(270deg, #ffc02d, #fff);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-shadow: -3px -3px 0 var(--color-theme-red);
+	text-shadow: -3px -3px 0 rgb(243, 0, 0);
 	display: block;
 }
 
